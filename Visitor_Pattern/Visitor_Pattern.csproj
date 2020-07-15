@@ -43,18 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Partcipants\ConcreteElement\Employee.cs" />
+    <Compile Include="Partcipants\ConcreteVisitor\BankPerson.cs" />
+    <Compile Include="Partcipants\ConcreteVisitor\Doctor.cs" />
+    <Compile Include="Partcipants\Element\IElement.cs" />
+    <Compile Include="Partcipants\ObjectStructure\Organization.cs" />
+    <Compile Include="Partcipants\Visitor\IVisitor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Partcipants\ConcreteElement\" />
-    <Folder Include="Partcipants\ConcreteVisitor\" />
-    <Folder Include="Partcipants\Element\" />
-    <Folder Include="Partcipants\ObjectStructure\" />
-    <Folder Include="Partcipants\Visitor\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
