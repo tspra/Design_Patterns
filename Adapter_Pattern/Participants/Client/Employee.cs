@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Adapter_Pattern.Client
+namespace Adapter_Pattern.Participants.Client
 {
     public class Employee
     {

@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Adapter_Pattern.Adaptee;
-using Adapter_Pattern.Client;
-using Adapter_Pattern.Target;
+using Adapter_Pattern.Participants.Adaptee;
+using Adapter_Pattern.Participants.Client;
+using Adapter_Pattern.Participants.Target;
 
-namespace Adapter_Pattern.Adapter
+namespace Adapter_Pattern.Participants.Adapter
 {
     public class EmployeeAdapter : ITarget
     {

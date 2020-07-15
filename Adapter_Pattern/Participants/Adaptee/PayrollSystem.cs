@@ -1,11 +1,11 @@
-﻿using Adapter_Pattern.Client;
+﻿using Adapter_Pattern.Participants.Client;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Adapter_Pattern.Adaptee
+namespace Adapter_Pattern.Participants.Adaptee
 {
     public class PayrollSystem
     {

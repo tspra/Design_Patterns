@@ -1,6 +1,6 @@
-﻿using Adapter_Pattern.Adapter;
-using Adapter_Pattern.Client;
-using Adapter_Pattern.Target;
+﻿using Adapter_Pattern.Participants.Adapter;
+using Adapter_Pattern.Participants.Client;
+using Adapter_Pattern.Participants.Target;
 using System;
 using System.Collections.Generic;
 using System.Linq;
